@@ -186,9 +186,3 @@ function keyPressed(){
        slingShot.attach(this.ball);
     }
 }
-
-async function getdaynightcolor(){
-    var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
-    var responseJSON = await response.json();
-    console.log(responseJSON);
-}
